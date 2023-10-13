@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Mulish:wght@400;600;700;800&family=Rubik:wght@400;500&display=swap");
+.slots__1 {
+  display: none;
+}
+
+.img_menu {
+  display: none;
+}
+
+.block_title {
+  display: none;
+}
+
+.block__title {
+  display: none;
+}
+
+.contener_top {
+  max-width: 1172.2px;
+  margin: auto;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  background: #7AC751;
+  padding-top: 16px;
+  padding-bottom: 15px;
+}
+
+.greetings > p {
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.language_account {
+  display: flex;
+}
+
+.language {
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wand {
+  width: 2.2px;
+  height: 19px;
+  border-radius: 0.4px;
+  background: #FFF;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.account {
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bottom {
+  padding-top: 21px;
+  padding-bottom: 20px;
+}
+
+.contener_bottom {
+  max-width: 1172px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+.slots_1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.img_logo {
+  display: flex;
+}
+
+.logo {
+  width: 31.787px;
+  margin-right: 5.21px;
+}
+
+.text_logo {
+  margin-left: 5.21px;
+  margin-top: 7px;
+  color: #555;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+}
+
+.form {
+  display: flex;
+}
+
+.search {
+  border: 2px solid #7AC751;
+  padding-top: 15px;
+  padding-bottom: 14px;
+  padding-left: 25px;
+  padding-right: 21.29px;
+  width: 527px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search_engine {
+  color: #B0B0B0;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.categories {
+  color: #555;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  border-radius: 0px 7px 6px 0px;
+  background: #7AC751;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 19px;
+}
+
+.block_shop_Notification_profile {
+  display: flex;
+  align-items: center;
+  gap: 31.79px;
+}
+
+.lupa {
+  width: 16px;
+}
+
+.shop {
+  width: 24px;
+}
+
+.notification {
+  width: 24px;
+}
+
+.profile {
+  width: 24px;
+}
+
+.block_collections {
+  display: flex;
+}
+
+.button_collections {
+  background: #7AC751;
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  padding-left: 30px;
+  padding-right: 40px;
+  height: 67px;
+}
+
+.collection {
+  width: 24px;
+  margin-right: 20px;
+}
+
+.collections {
+  height: 454px;
+  display: none;
+}
+
+.sections_collections {
+  padding-top: 10px;
+  padding-bottom: 14px;
+  padding-left: 29px;
+  width: 254px;
+  height: 42px;
+}
+
+.sections_collections > a {
+  color: #555;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.menu {
+  margin-left: 82px;
+  padding-top: 31px;
+}
+
+.list {
+  display: flex;
+  gap: 65px;
+}
+
+.item > a {
+  color: #555;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.block_menu {
+  display: flex;
+  justify-content: center;
+}
+
+.top_collection {
+  margin-top: 12px;
+  margin-left: 11px;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_text {
+  padding-top: 73px;
+  padding-left: 11px;
+  padding-right: 10px;
+  width: 341px;
+}
+.main_text .text_top {
+  color: #7AC751;
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.1px;
+  padding-bottom: 6px;
+}
+.main_text .title_we_furniture .title {
+  color: #2F2F2F;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 29px;
+  position: relative;
+}
+.main_text .title_we_furniture .title .line_green {
+  width: 191px;
+  position: absolute;
+  top: 88px;
+  left: 131px;
+}
+.main_text .text_discount {
+  color: rgba(81, 81, 81, 0.71);
+  font-family: "Mulish", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  padding-bottom: 35px;
+}
+.main_text .shop_now {
+  border-radius: 5px;
+  background: #7AC751;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.main_text .shop_now a {
+  color: #FFF;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title {
+  padding-bottom: 29px;
+  color: #2F2F2F;
+  font-family: Rubik;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+}
+
+.line_green {
+  position: absolute;
+  top: 70%;
+  right: 0%;
+  width: 182px;
+}
+
+.slider_internal {
+  display: flex;
+}
+
+.list_collection {
+  padding-top: 58px;
+  display: flex;
+  flex-direction: column;
+  gap: 25.53px;
+}
+
+.sections_collection {
+  width: 98px;
+  height: 91.467px;
+  text-align: center;
+}
+.sections_collection .armchairs_gray {
+  width: 49px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.sections_collection .armchairs_white {
+  width: 79px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.sections_collection .armchairs_yellows {
+  width: 51px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+.sections_collection .sum {
+  color: #7AC751;
+  font-family: "Rubik", sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 3px;
+}
+.sections_collection .name {
+  color: #555;
+  font-family: "Rubik", sans-serif;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.img_armchairs_blue {
+  padding-top: 36px;
+  padding-right: 7px;
+}
+.img_armchairs_blue .armchairs_blue {
+  width: 374px;
+}
+
+.switch {
+  margin-top: 8px;
+  height: 12px;
+  margin-left: 361px;
+  width: 105px;
+  display: flex;
+  gap: 14px;
+}
+
+.point {
+  width: 12px;
+}
+
+.point_2 {
+  width: 25px;
+  padding-top: 1px;
+}/*# sourceMappingURL=header.css.map */

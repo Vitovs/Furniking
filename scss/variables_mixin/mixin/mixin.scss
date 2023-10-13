@@ -1,0 +1,417 @@
+@mixin text()
+{
+    color: $white;
+    font-family: $Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin logo()
+{
+    color: $grey;
+    font-family: $Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+}
+
+@mixin menu()
+{
+    color: $grey;
+    font-family: $Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin contener_top() 
+{
+    max-width: 1172.2px;
+    margin: auto;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin contener_bottom() 
+{
+    max-width: 1172px;
+    margin: auto;
+    padding: 0 32px;
+}
+
+@mixin main_text()
+{
+    .text_top
+    {
+        color: $green;
+        font-family: $Rubik;
+        font-size: $green_text;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+        letter-spacing: 1.1px;
+        padding-bottom: 6px;
+    }
+
+    .title_we_furniture
+    {
+        .title
+        {
+            color: $black;
+            font-family: $Rubik;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            padding-bottom: 29px;
+            position: relative;
+            .line_green
+            {
+                width: 191px;
+                position: absolute;
+                top: 88px;
+                left: 131px;
+            }
+        }
+    }
+
+    .text_discount
+    {
+        color: $grey_black;
+        font-family: $Mulish;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        padding-bottom: 35px;
+    }
+
+    .shop_now
+    {
+        border-radius: 5px;
+        background: $green;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px;
+        padding-right: 18px;
+        a
+        {
+            color: $white;
+            font-family: $Mulish;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+@mixin sections_collection()
+{
+    .armchairs_gray
+    {
+        width: 49px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+    .armchairs_white
+    {
+        width: 79px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+    .armchairs_yellows
+    {
+        width: 51px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+
+    .sum
+    {
+        color: $green;
+        font-family: $Rubik;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        padding-bottom: 3px;
+    }
+
+    .name
+    {
+        color: $grey;
+        font-family: $Rubik;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 500;
+    }
+}
+
+@mixin contener_main()
+{
+    max-width: 1226px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@mixin additional_text()
+{
+    .subject
+    {
+        color: $grey;
+        font-family: $Rubik;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .text
+    {
+        color: $grey_black;
+        font-family: $Rubik;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+@mixin produkt()
+{
+    .heading
+    {
+        padding-bottom: 3.2%;
+        color: var(--Primary, #555);
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    .text_green
+    {
+        padding-bottom: 4.3%;
+        color: var(--Main-Color, #7AC751);
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    .link_read
+    {
+        color: #757575;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        .arrow_right
+        {
+            padding-top: 10.6px;
+        }
+    }
+}
+
+@mixin headline_trending()
+{
+    padding-bottom: 45px;
+    color: $grey;
+    font-family: $Mulish;
+    font-size: $title;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin trending()
+{
+    max-width: 1230px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 73px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@mixin link()
+{
+    color: $grey_light_3;
+    font-family: $Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@mixin name_chair()
+{
+    padding-top: 15.18px;
+    padding-bottom: 9px;
+    color: $grey_black;
+    font-family: $Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    letter-spacing: 0.112px;
+    text-transform: uppercase;
+}
+
+@mixin name()
+{
+    color: $grey;
+    font-family: $Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+}
+
+@mixin text_price()
+{
+    color: $green;
+    text-align: center;
+    font-family: $Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.09px;
+}
+
+@mixin text_crossed_out_price()
+{
+    color: $white_2;
+    text-align: center;
+    font-family: $Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0.09px;
+    position: relative;
+}
+
+@mixin sale()
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.096px;
+}
+
+@mixin contener_special()
+{
+    max-width: 1230px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@mixin headline_special()
+{
+    margin-bottom: 60px;
+    text-align: center;
+    color: $grey;
+    font-family: $Mulish;
+    font-size: $title;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@mixin discounts()
+{
+    color: $white;
+    text-align: center;
+    font-family: $Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+    letter-spacing: 0.096px;
+}
+
+@mixin title_special()
+{
+    color: $grey;
+    font-family: $Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@mixin text_special()
+{
+    color: $grey_light_2;
+    font-family: $Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 210%;
+}
+
+@mixin shop_now()
+{
+    color: $white;
+    font-family: $Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin tamer_number()
+{
+    color: $white;
+    text-align: center;
+    font-family: $Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+@mixin tamer_text()
+{
+    color: $white;
+    text-align: center;
+    font-family: $Rubik;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.03px;
+    text-transform: uppercase;
+}
+
+@mixin headline_our_products()
+{
+    color: $grey;
+    font-family: $Mulish;
+    font-size: $title;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
